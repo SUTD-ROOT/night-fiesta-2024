@@ -1,13 +1,47 @@
+
+@font-face {
+  font-family: 'Good Times Rg';
+  src: url('./assets/fonts/GoodTimesRg-Regular.woff2') format('woff2'),
+      url('./assets/fonts/GoodTimesRg-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Polly Rounded';
+  src: url('./assets/fonts/PollyRounded-Bold.woff2') format('woff2'),
+      url('./assets/fonts/PollyRounded-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mars';
+  src: url('./assets/fonts/MarsRegular.woff2') format('woff2'),
+      url('./assets/fonts/MarsRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  background-color: #10002b;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Mars';
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Polly Rounded';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

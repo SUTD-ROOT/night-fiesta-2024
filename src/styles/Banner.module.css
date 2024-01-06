@@ -1,0 +1,72 @@
+.h1 {
+  font-size: 2.4rem;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.h3 {
+  font-family: 'Polly Rounded';
+  margin: 2px 0;
+  font-size: 1.2rem;
+}
+
+
+.star {
+  width: 40vw;
+  filter: drop-shadow(0px 12px 7px rgba(116, 36, 255, 0.5));
+}
+
+.component {
+  min-height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.bg {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 110%;
+  background-size: cover;
+  z-index: -5;
+  background: url(../assets/WebBG.gif) 100% 100% no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .star {
+    width: 30vw;
+  }
+
+  .h1 {
+    font-size: 4.8rem;
+  }
+
+  .h3 {
+    font-size: 2.4rem;
+  }
+
+  .p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .star {
+    width: 16vw;
+  }
+
+  .p {
+    font-size: 1.2rem;
+  }
+}

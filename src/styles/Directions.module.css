@@ -1,0 +1,92 @@
+.component {
+    background-color: #3c096c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 24px;
+}
+
+.card {
+    background-color: #10002b;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    width: 90vw;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.card img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+
+}
+
+.content {
+    margin: 24px 36px;
+    text-align: left;
+
+}
+
+.content h1 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.content h3 {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Mars';
+    font-size: 0.8rem;
+    color: #EA698B;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 85vw;
+    }
+
+    .content h1 {
+        font-size: 1.6rem;
+    }
+
+    .content h3 {
+        font-size: 1.4rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    .card img {
+        height: 100%;
+        width: 50%;
+    }
+
+    .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .content h3 {
+        font-size: 1rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    
+}

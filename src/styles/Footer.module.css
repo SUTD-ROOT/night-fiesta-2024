@@ -1,0 +1,68 @@
+.component {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 32px;
+}
+
+.component h2 {
+    font-family: 'Mars';
+    font-size: 1.2rem;
+    color: #EA698B;
+
+}
+
+.component h3 {
+    font-family: 'Mars';
+    font-size: 1rem;
+    margin-bottom: 24px;
+    color: #EA698B;
+
+}
+
+.component p {
+    font-size: 1rem;
+}
+
+.section1 img {
+    width: 90px;
+    margin: 32px;
+}
+
+.section3 a {
+    text-decoration: none;
+}
+
+.section3 button {
+    font-family: "Polly Rounded";
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+    width: 75vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin: 18px 0;
+}
+
+.section3 button:hover {
+    color: #fff;
+    border: 2px solid #c05299;
+    background-color: #c05299;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+}
