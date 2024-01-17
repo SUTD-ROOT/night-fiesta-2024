@@ -28,15 +28,3 @@ h3 {
 }
 
 
-.bg-vid {
-  top: 0;
-  position: absolute;
-  width: 100vw;
-  height: 100%;
-  background-size: cover;
-  z-index: -5;
-  background: url(./assets/WebBG.gif) 100% 100% no-repeat;
-  background-size: cover; 
-  background-position: top center;
-  
-}

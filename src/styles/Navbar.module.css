@@ -1,0 +1,44 @@
+.component {
+    position: fixed;
+    width: 100vw;
+    background: rgb(10, 2, 45);
+    background: linear-gradient(180deg, rgba(10, 1, 46, 0.32) 44%, rgba(17, 3, 71, 0) 100%);
+    height: 10vh;
+    top: 0;
+    z-index: 89;
+    backdrop-filter: blur(6px);
+    box-sizing: border-box;
+    padding: 10px 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.component a {
+    text-decoration: none;
+    margin: 0;
+    color: #fff;
+}
+
+.component h3 {
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.component h3:hover {
+    color: #EA698B;
+}
+
+.menu {
+    font-size: 32px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.leaderboard {
+    font-size: 24px;
+}

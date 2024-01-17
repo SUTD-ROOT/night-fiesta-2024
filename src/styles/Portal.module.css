@@ -35,6 +35,21 @@
 
 .card h2 {
     font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.link {
+    text-decoration: none;
+
+
+    .title {
+        position: relative;
+        font-size: 2.4rem;
+        margin-top: 100px;
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -42,6 +57,7 @@
         width: 40vw;
         height: 30vh;
     }
+
     .container {
         gap: 48px;
     }
@@ -58,5 +74,5 @@
         width: 80%;
         gap: 84px;
     }
-    
+
 }

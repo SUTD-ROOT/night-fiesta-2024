@@ -8,7 +8,7 @@ const VideoBanner = () => {
             <div className={styles.card}>
                 <div className={styles.content}>
                     <MdOutlineVideoSettings className={styles.icon} />
-                    <h2>- Highlight Video Coming Soon! -</h2>
+                    <h2>- Recap Video Coming Soon! -</h2>
                 </div>
             </div>
         </div>

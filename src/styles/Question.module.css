@@ -1,0 +1,72 @@
+.component {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.component button {
+    margin: 12px 0;
+    background: none;
+    color: #fff;
+    font-family: "Polly Rounded";
+    border: 2px white solid;
+    width: 80vw;
+    padding: 12px 24px;
+    cursor: pointer;
+
+}
+
+.component button:active {
+    background: #ffc4ea;
+    color: #EA698B;
+    -webkit-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+    -moz-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+    box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+}
+
+.tag {
+    font-size: 0.8rem;
+}
+
+.question {
+    font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .question {
+        font-size: 2rem;
+
+    }
+
+    .component button {
+        font-size: 1.4rem;
+    }
+    .tag {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .component {
+        margin: 8px 18px;
+    }
+    
+    .component button {
+        font-size: 1rem;
+        width: 60vw;
+    }
+
+    .component button:hover {
+        background: #ffc4ea;
+        color: #EA698B;
+        -webkit-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+        -moz-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+        box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+    }
+    .tag {
+        font-size: 1rem;
+    }
+    .question {
+        font-size: 1.2rem;
+    }
+}

@@ -67,19 +67,20 @@
     .card {
         display: flex;
         flex-direction: row;
-        height: 65vh;
-        max-height: 65vh;
+        height: 75vh;
+        max-height: 75vh;
         padding-bottom: 0;
         align-items: center;
     }
 
     .card img {
-        width: 45%;
+        width: 25%;
         height: 100%;
     }
 
     .content {
         text-align: left;
+        width: 75%;
     }
     .carouselMain {
         width: 90vw;

@@ -1,0 +1,39 @@
+.component h1 {
+    font-size: 1.4rem;
+}
+
+.button {
+    margin: 24px 0;
+    background: #c0529a77;
+    font-family: "Polly Rounded";
+    font-size: 1.4rem;
+    padding: 12px 24px;
+    color: #fff;
+    border: 2px solid #EA698B;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: #ffc4ea;
+    color: #EA698B;
+    -webkit-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+    -moz-box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+    box-shadow: 0px 0px 57px 8px rgba(253, 115, 255, 0.9);
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .component h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .component h1 {
+        font-size: 2.4rem;
+    }
+}
