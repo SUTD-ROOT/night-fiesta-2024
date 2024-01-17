@@ -9,8 +9,18 @@ import EventMap from './pages/EventMap';
 import Schedule from './pages/Schedule';
 import Quiz from './pages/Quiz';
 import Leaderboard from './pages/Leaderboard';
+import { useEffect, useState } from 'react';
+import Loader from './components/Loader';
 
 function App() {
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000)
+  }, [])
+  if (loading) {
+    return <Loader/>
+
+  }
   return (
     <div className="App">
       <MainMenu />

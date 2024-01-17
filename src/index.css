@@ -50,7 +50,7 @@ body {
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
-
+ :global {
   @keyframes puffOutCenter {
       0% {
           transform: scale(1);
@@ -64,4 +64,4 @@ body {
           opacity: 0
       }
   }
-
+}

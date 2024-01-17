@@ -25,6 +25,12 @@
   color: white;
 }
 
+.component a {
+  color: #EA698B;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
 
 .bg {
   top: 0;
@@ -59,6 +65,10 @@ p {
   .p {
     font-size: 1.6rem;
   }
+  .component a {
+    font-size: 1.2rem;
+  }
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -68,5 +78,8 @@ p {
 
   .p {
     font-size: 1.2rem;
+  }
+  .component a {
+    font-size: 1.4rem;
   }
 }

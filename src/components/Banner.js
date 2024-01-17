@@ -8,6 +8,7 @@ const Banner = () => {
             <img alt="" src={star} className={styles.star} />
             <h1 className={styles.h1}>CELESTIA</h1>
             <h3 className={styles.h3}>SUTD NIGHT FIESTA 2024</h3>
+            <a href="/quiz">DISCOVER YOUR FIESTA CHARACTER</a>
             <p className={styles.p}>24 February 2024 6-10pm @ Campus Centre</p>
         </div>
     );
