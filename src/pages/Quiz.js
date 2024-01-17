@@ -40,7 +40,7 @@ const Quiz = () => {
             point: ["red", "blue", "yellow", "green"]
         },
         {
-            question: "You’re packing and your new roommate comes in. What would you do?",
+            question: "You’re unpacking and your new roommate comes in. What would you do?",
             ans0: "You introduce yourself first and start having conversations so you can get to know them better",
             ans1: "Wait for the other person to introduce themselves first",
             ans2: "Say a quick hi and continue doing your own thing",
