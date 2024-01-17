@@ -107,13 +107,13 @@ const Quiz = () => {
         setLevel(0);
         setRedPoints(0);
         setBluePoints(0);
-        setGreenPoints(8);
+        setGreenPoints(0);
         setYellowPoints(0);
     }, [])
     return (
         <div className={styles.page}>
             <div className={styles.bg}></div>
-            {(level === 0) ? <StartQuiz {...{ level, setLevel }} /> : <></>}
+            {(level === 0) ? <StartQuiz {...{ level, setLevel, redPoints, setRedPoints, yellowPoints, setYellowPoints, greenPoints, setGreenPoints, bluePoints, setBluePoints }} /> : <></>}
             {(level >= 1 && level <= 10) ? <Question {...{level, setLevel, Questions, redPoints, setRedPoints, yellowPoints, setYellowPoints, greenPoints, setGreenPoints, bluePoints, setBluePoints}} /> : <></>}
             {(level === 11) ? <EndQuiz {...{level, setLevel, Questions, redPoints, setRedPoints, yellowPoints, setYellowPoints, greenPoints, setGreenPoints, bluePoints, setBluePoints}}/> : <></>}
         </div>

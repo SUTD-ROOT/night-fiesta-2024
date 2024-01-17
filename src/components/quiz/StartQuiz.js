@@ -1,9 +1,21 @@
 import styles from "../../styles/StartQuiz.module.css"
 const StartQuiz = ({
     level,
-    setLevel
+    setLevel,
+    redPoints,
+    setRedPoints,
+    yellowPoints,
+    setYellowPoints,
+    greenPoints,
+    setGreenPoints,
+    bluePoints,
+    setBluePoints
 }) => {
     const handlePlay = (e) => {
+        setRedPoints(0);
+        setBluePoints(0);
+        setGreenPoints(0);
+        setYellowPoints(0);
         e.preventDefault();
         document.getElementById("component").style.animation = "puffOutCenter 1s cubic-bezier(.165,.84,.44,1.000) both"
 

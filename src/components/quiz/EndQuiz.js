@@ -27,8 +27,9 @@ const EndQuiz = ({
             ["Wolf", bluePoints]
         ]
         scoreArr.sort(function (a, b) {
-            return a[1] - b[1];
+            return b[1] - a[1];
         })
+        console.log(scoreArr)
         setChar(scoreArr[0][0])
     }, [])
 
@@ -36,7 +37,7 @@ const EndQuiz = ({
         setLevel(0);
         setRedPoints(0);
         setBluePoints(0);
-        setGreenPoints(8);
+        setGreenPoints(0);
         setYellowPoints(0);
     }
     return (
