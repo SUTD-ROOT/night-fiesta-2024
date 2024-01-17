@@ -4,6 +4,9 @@ import { Carousel } from 'react-responsive-carousel';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 import boothsImg from "../assets/photos/booths.jpg"
+import installationImg from "../assets/photos/installations.jpg"
+import merchImg from "../assets/photos/merch.jpg"
+import performanceImg from "../assets/photos/performance.jpg"
 
 const Attractions = () => {
 
@@ -41,31 +44,31 @@ const Attractions = () => {
                     <img src={boothsImg} alt="" />
                     <div className={styles.content}>
                         <h2>Student Organisation Booths</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>Get ready for an illuminating Night Fiesta experience! Join over 30 fifth rows who will be sharing their achievements right at the campus center. Dive into the excitement with our new RFID technology – visit booths, play games, and collect points for a thrilling twist. Stay tuned to discover the exciting surprises that these points unlock!</p>
                     </div>
                 </div>
                 
                 <div className={styles.card}>
-                    <img src={boothsImg} alt="" />
+                    <img src={performanceImg} alt="" />
                     <div className={styles.content}>
                         <h2>Performances</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>You may just need a break after walking around and looking at what our student organisation booths have to offer. Relax and enjoy our captivating performance lineup: get ready to be wowed and have a blast during a night filled with entertainment!</p>
                     </div>
                 </div>
 
                 <div className={styles.card}>
-                    <img src={boothsImg} alt="" />
+                    <img src={installationImg} alt="" />
                     <div className={styles.content}>
                         <h2>Interactive Installations</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>Discover the enchanting ambiance of Night Fiesta with our specially crafted light displays and showcases, meticulously designed by our talented Decorations teams. Join us for a tranquil yet captivating experience that is sure to add a touch of magic to your evening.</p>
                     </div>
                 </div>
                 
                 <div className={styles.card}>
-                    <img src={boothsImg} alt="" />
+                    <img src={merchImg} alt="" />
                     <div className={styles.content}>
                         <h2>Merchandise</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>Discover the charm of Celestia with our four delightful mascots! Take home a special Celestia tee by visiting Night Fiesta today. Dive into a world of merchandise – there's something special waiting just for you!</p>
                     </div>
                 </div>
             </Carousel>

@@ -20,10 +20,10 @@ const Footer = () => {
             </div>
             <div className={styles.section3}>
                 <h3>Stay Connected!</h3>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="mailto:nightfiesta@studentgov.sutd.edu.sg" target="_blank" rel="noreferrer">
                     <button><FaEnvelope />Email</button>
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/sutdlife/" target="_blank" rel="noreferrer">
                     <button><FaInstagram />Instagram</button>
                 </a>
 
