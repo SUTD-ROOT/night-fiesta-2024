@@ -14,6 +14,7 @@ const Main = () => {
 
     return (
         <div className="main-page">
+            
             <Banner />
             <Teasers />
             <Attractions />
