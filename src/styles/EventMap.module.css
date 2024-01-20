@@ -1,3 +1,8 @@
+.page {
+    box-sizing: border-box;
+    padding: 8px 12px;
+}
+
 .content {
     position: relative;
     display: flex;
@@ -18,7 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 28px;
+    gap: 20px;
 }
 
 .subtitle {
@@ -30,7 +35,7 @@
 }
 
 .card h3 {
-    font-size: 22px;
+    font-size: 0.8rem;
     color: #973AA8;
     margin: 4px 0;
 }
@@ -45,8 +50,8 @@
 .card {
     background: #fff;
     border-radius: 8px;
-    width: 55vw;
-    height: 220px;
+    width: 35vw;
+    height: 110px;
     padding: 18px 4px;
     display: flex;
     justify-content: center;
@@ -55,11 +60,27 @@
 }    
 
 .card img {
-    height: 80px;
+    object-fit: scale-down;
+    height: 40px;
+    max-width: 25vw;
 }
 
 .tag {
     font-size: 1.2rem;
+}
+
+.wrapper {
+    width: 90vw;
+    margin-bottom: 24px;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper h2 {
+    color: #973AA8;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -68,24 +89,49 @@
     }
     
     .card {
-        width: 40vw;
+        width: 20vw;
         padding: 22px 12px;
+        height: 180px;
+    }
+
+    .card img {
+        max-width: 15vw;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+        margin: 8px 0;
     }
 
     .container {
         gap: 24px;
+    }
+    .wrapper {
+        width: 80vw;
     }
 }
 
 
 @media only screen and (min-width: 1024px) {
     .card {
-        width: 25vw;
+        width: 15vw;
+    }
+
+    .card img {
+        max-width: 10vw;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+        margin: 12px 0;
     }
     .container {
         gap: 36px;
     }
     .subtitle {
         font-size: 1.4rem;
+    }
+    .wrapper {
+        width: 60vw;
     }
 }
