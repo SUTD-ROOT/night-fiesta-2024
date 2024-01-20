@@ -30,6 +30,7 @@ html {
   background-color: #10002b;
   color: #fff;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1 {

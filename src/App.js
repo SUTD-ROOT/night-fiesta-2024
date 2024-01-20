@@ -18,15 +18,16 @@ function App() {
     setTimeout(() => setLoading(false), 3200)
   }, [])
   if (loading) {
-    return <Loader/>
+    return <Loader />
 
   }
   return (
     <div className="App">
-      <MainMenu />
-      <Navbar />
+
 
       <Router>
+        <MainMenu />
+        <Navbar />
         <Routes>
           <Route
             path="/"

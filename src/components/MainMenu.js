@@ -1,5 +1,6 @@
 import { slide as Menu } from 'react-burger-menu'
 import styles from "../styles/mainMenu.module.css"
+import { useNavigate } from 'react-router-dom'
 
 const MainMenu = () => {
     var menuStyles = {
@@ -57,19 +58,21 @@ const MainMenu = () => {
         bmOverlay: {
           background: 'rgba(0, 0, 0, 0.3)'
         }
+        
     }
+
+    const navigate = useNavigate()
     return ( 
         <Menu styles={menuStyles}>
-                <a id="home" className={`${styles.menuItem} menu-item`} href="/">Home</a>
-                <a id="announcements" className={`${styles.menuItem} menu-item`} href="/about">Announcements</a>
-                <a id="attractions" className={`${styles.menuItem} menu-item`} href="/contact">Attractions</a>
+                <a style={{cursor: "pointer"}} id="home" className={`${styles.menuItem} menu-item`} onClick={() => {navigate("/", { state: { targetId: "bannerSection" } });}}>Home</a>
+                <a style={{cursor: "pointer"}} id="announcements" className={`${styles.menuItem} menu-item`} onClick={() => {navigate("/", { state: { targetId: "announcementsSection" } });}}>Announcements</a>
+                <a style={{cursor: "pointer"}} id="attractions" className={`${styles.menuItem} menu-item`} onClick={() => {navigate("/", { state: { targetId: "attractionsSection" } });}}>Attractions</a>
                 <a id="map" className={`${styles.menuItem} menu-item`} href="/event-map">Event Map</a>
                 {/*<a id="schedule" className={`${styles.menuItem} menu-item`} href="/schedule">Stage Schedule</a>*/}
                 {/*<a id="leaderboard" className={`${styles.menuItem} menu-item`} href="/leaderboard">Leaderboard</a>*/}
                 <a id="quiz" className={`${styles.menuItem} menu-item`} href="/quiz">Character Quiz</a>
                 {/*<a id="team" className={`${styles.menuItem} menu-item`} href="/team">Our Team</a>*/}
-                <a id="directions" className={`${styles.menuItem} menu-item`} href="/contact">Getting to SUTD</a>
-
+                <a style={{cursor: "pointer"}} id="attractions" className={`${styles.menuItem} menu-item`} onClick={() => {navigate("/", { state: { targetId: "directionsSection" } });}}>Getting to SUTD</a>
             </Menu>
      );
 }

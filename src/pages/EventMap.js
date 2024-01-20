@@ -21,12 +21,15 @@ import lion from "../assets/club_logos/lion.jpg"
 import ev from "../assets/club_logos/ev.png"
 import scratch from "../assets/club_logos/scratch.png"
 import studio from "../assets/club_logos/studio.png"
+import tabletennis from "../assets/club_logos/tabletennis.png"
 import ulti from "../assets/club_logos/ulti.jpg"
 import vertex from "../assets/club_logos/vertex.jpeg"
 import volleyball from "../assets/club_logos/volleyball.png"
 import winds from "../assets/club_logos/winds.jpeg"
 import xr from "../assets/club_logos/xr.png"
 import mvmcxgp from "../assets/club_logos/mvmcxgp.png"
+import swimming from "../assets/club_logos/swimming.jpg"
+import football from "../assets/club_logos/football.jpg"
 import placeholder from "../assets/club_logos/placeholder.svg"
 import lvl1 from "../assets/lvl1.png"
 import lvl2 from "../assets/lvl2.png"
@@ -37,7 +40,7 @@ const EventMap = () => {
     const boothDirectory = [
         {
             name: "3DC",
-            num: 1,
+            num: 2,
             img: _3dc
         },
         {
@@ -47,132 +50,147 @@ const EventMap = () => {
         },
         {
             name: "Cat Appreciation Team (CAT)",
-            num: 3,
+            num: 2,
             img: cat
         },
         {
             name: "Chess PC",
-            num: 4,
+            num: 1,
             img: chess
         },
         {
             name: "Energy Club",
-            num: 4,
+            num: 1,
             img: energy
         },
         {
             name: "Floorball Club",
-            num: 5,
+            num: 1,
             img: floorball
         },
         {
             name: "Greenprint and MVMC",
-            num: 6,
+            num: 2,
             img: mvmcxgp
         },
         {
             name: "Gunpla Club",
-            num: 7,
+            num: 2,
             img: gunpla
         },
         {
             name: "IEEE Club",
-            num: 8,
+            num: 2,
             img: ieee
         },
         {
             name: "Indonesian Cultural Club (PADI)",
-            num: 9,
+            num: 2,
             img: indopadi
         },
         {
             name: "Keyboard Warriors",
-            num: 10,
+            num: 2,
             img: keyboard
         },
         {
             name: "Korean Language Enrichment Club",
-            num: 11,
+            num: 2,
             img: klec
         },
         {
             name: "Makerspace Club",
-            num: 12,
+            num: 1,
             img: makerspace
         },
         {
             name: "MECHD",
-            num: 8,
+            num: 2,
             img: mechd
         },
         {
             name: "Mindsports Club",
-            num: 8,
+            num: 2,
             img: mindsports
         },
         {
             name: "Multi-Rotor SUTD",
-            num: 8,
+            num: 1,
             img: mrs
         },
         {
             name: "Namaste Indian Cultural Interest Group",
-            num: 8,
+            num: 2,
             img: namaste
         },
         {
             name: "Rugby Club",
-            num: 8,
+            num: 1,
             img: placeholder
         },
         {
             name: "ROOT",
-            num: 8,
+            num: 1,
             img: root
         },
         {
             name: "SUTD Civil Defence LionHearters Interest Group",
-            num: 8,
+            num: 2,
             img: lion
         },
         {
             name: "SUTD EV Club",
-            num: 8,
+            num: 1,
             img: ev
         },
         {
+            name: "SUTD Football Club",
+            num: 1,
+            img: football
+        },
+        {
             name: "SUTD Scratch!",
-            num: 8,
+            num: 1,
             img: scratch
         },
         {
             name: "SUTDio Club",
-            num: 8,
+            num: 1,
             img: studio
         },
         {
+            name: "Swimming",
+            num: 1,
+            img: swimming
+        },
+        {
+            name: "Table Tennis",
+            num: 1,
+            img: tabletennis
+        },
+        {
             name: "Ultimate",
-            num: 8,
+            num: 1,
             img: ulti
         },
         {
             name: "Vertex Cheerleading",
-            num: 8,
+            num: 1,
             img: vertex
         },
         {
             name: "Volleyball",
-            num: 8,
+            num: 1,
             img: volleyball
         },
         {
             name: "Wind Ensemble Club",
-            num: 8,
+            num: 1,
             img: winds
         },
         {
             name: "XRCommunity",
-            num: 8,
+            num: 2,
             img: xr
         },
         
@@ -196,7 +214,7 @@ const EventMap = () => {
                             <div className={styles.card} key={i}>
                                 <img src={booth.img} alt="" />
                                 <h3>{booth.name}</h3>
-                                <p>Booth {booth.num}</p>
+                                <p>Level {booth.num}</p>
                             </div>
                         ))
                     }
