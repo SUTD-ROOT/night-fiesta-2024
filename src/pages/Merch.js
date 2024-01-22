@@ -1,5 +1,5 @@
 import styles from "../styles/Merch.module.css"
-import banner from "../assets/shirt-banner.jpg"
+import banner from "../assets/shirt-banner.png"
 import front from "../assets/shirt_front.png"
 import back from "../assets/shirt_back.png"
 import { Carousel } from "react-responsive-carousel"
@@ -47,6 +47,7 @@ const Merch = () => {
                     <h1 className={styles.title}>NF Exclusive Shirt</h1>
                     <h1 className={styles.subtitle}>Early Bird Sale</h1>
                     <h3 className={styles.price}>1 for $10 | 3 for $24</h3>
+                    <button><a href="https://forms.office.com/r/KPWqrSzyr4" target="_blank" rel="noopener">Order Now!</a></button>
                 </div>
 
             </div>

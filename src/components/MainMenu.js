@@ -71,7 +71,7 @@ const MainMenu = () => {
                 <a id="schedule" className={`${styles.menuItem} menu-item`} href="/schedule">Stage Schedule</a>
                 {/*<a id="leaderboard" className={`${styles.menuItem} menu-item`} href="/leaderboard">Leaderboard</a>*/}
                 <a id="quiz" className={`${styles.menuItem} menu-item`} href="/quiz">Character Quiz</a>
-                {/*<a id="merch" className={`${styles.menuItem} menu-item`} href="/shirt">Merchandise</a>*/}
+                {/*<a id="merch" className={`${styles.menuItem} menu-item`} href="/merch">Merchandise</a>*/}
                 {/*<a id="team" className={`${styles.menuItem} menu-item`} href="/team">Our Team</a>*/}
                 <a style={{cursor: "pointer"}} id="attractions" className={`${styles.menuItem} menu-item`} onClick={() => {navigate("/", { state: { targetId: "directionsSection" } });}}>Getting to SUTD</a>
             </Menu>

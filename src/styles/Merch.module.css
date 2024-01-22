@@ -56,6 +56,27 @@
     color: #f09dff;
 }
 
+.content button {
+    background: #EA698B;
+    color: #fff;
+    font-family: "Mars";
+    margin: 12px 0;
+    padding: 8px 24px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content button:hover {
+    background:#C05299;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 
 
 @media only screen and (min-width: 768px) {

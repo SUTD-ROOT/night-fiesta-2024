@@ -49,7 +49,7 @@ function App() {
             path="/leaderboard"
             element={<Leaderboard />} />
             <Route
-            path="/shirt"
+            path="/merch"
             element={<Merch />} />
         </Routes>
       </Router>
