@@ -71,8 +71,8 @@ const Schedule = () => {
                 <img src={logo} alt="" />
                 <div className={styles.header}>
                     <h1 className={styles.title}>Stage Schedule</h1>
-                    <h3>Night Fiesta 2024</h3>
-                    <p>Playlist</p>
+                    <h3>SUTD Night Fiesta</h3>
+                    <p>2024 Playlist | 10 items</p>
                 </div>
 
             </div>

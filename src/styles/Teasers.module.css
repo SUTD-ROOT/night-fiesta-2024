@@ -27,12 +27,19 @@
 }
 
 .card {
-    margin: 24px 0;
-    background-color: #3c096c;
+    margin: 14px;
     box-sizing: border-box;
-    padding: 18px 12px;
     border-radius: 8px;
-    
+    height: 20vh;
+}
+.carouselMain {
+    background-color: #3c096c;
+   
+
+}
+
+.card a {
+    color: #EA698B;
 }
 
 @media only screen and (min-width: 768px) {
@@ -81,6 +88,8 @@
 
     .card {
         padding: 18px 12px;
+        height: 30vh;
+
     }
 
     .card p {
@@ -90,5 +99,7 @@
     .card h3 {
         font-size: 1.4rem;
     }
+
+   
 
 }

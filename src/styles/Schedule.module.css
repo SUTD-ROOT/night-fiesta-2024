@@ -105,7 +105,7 @@
     }
 
     .name {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .left {
@@ -150,5 +150,9 @@
 
     .card {
         padding: 2px 24px;
+    }
+
+    .name {
+        font-size: 1.2rem;
     }
 }
