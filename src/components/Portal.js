@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import layoutThumbnail from "../assets/event-layout-thumbnail.png"
 import quizThumbnail from "../assets/quiz-thumbnail.jpg"
 import stageThumbnail from "../assets/stage-thumbnail.jpg"
+import merchThumbnail from "../assets/shirt-banner.png"
 
 const Portal = () => {
     return (
@@ -31,6 +32,12 @@ const Portal = () => {
                     <a href="/quiz">
                     <img alt="" src={quizThumbnail} />
                     <h2>CHARACTER QUIZ</h2>
+                    </a>
+                </div>
+                <div className={styles.card}>
+                    <a href="/merch">
+                    <img alt="" src={merchThumbnail} />
+                    <h2>Merchandise</h2>
                     </a>
                 </div>
                 {/*<Link to="/team" className={styles.link}>
