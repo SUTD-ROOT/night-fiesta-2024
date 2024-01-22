@@ -61,7 +61,7 @@ const Schedule = () => {
         {
             name: "Manners (Band)",
             time: "2045 - 2100",
-            img: manners
+            img: bands
         },
     ]
 
@@ -72,7 +72,7 @@ const Schedule = () => {
                 <div className={styles.header}>
                     <h1 className={styles.title}>Stage Schedule</h1>
                     <h3>Night Fiesta 2024</h3>
-                    <p>10 items</p>
+                    <p>Playlist</p>
                 </div>
 
             </div>
