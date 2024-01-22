@@ -7,7 +7,7 @@ import chess from "../assets/club_logos/chess.jpg"
 import energy from "../assets/club_logos/energy.png"
 import floorball from "../assets/club_logos/floorball.png"
 import gunpla from "../assets/club_logos/gunpla.png"
-import ieee from "../assets/club_logos/ieee.jpg"
+import ieee from "../assets/club_logos/ieee.jpeg"
 import indopadi from "../assets/club_logos/indopadi.png"
 import keyboard from "../assets/club_logos/keyboard.png"
 import klec from "../assets/club_logos/klec.png"
@@ -30,6 +30,7 @@ import xr from "../assets/club_logos/xr.png"
 import mvmcxgp from "../assets/club_logos/mvmcxgp.png"
 import swimming from "../assets/club_logos/swimming.jpg"
 import football from "../assets/club_logos/football.jpg"
+import rugby from "../assets/club_logos/rugby.png"
 import placeholder from "../assets/club_logos/placeholder.svg"
 import lvl1 from "../assets/lvl1.png"
 import lvl2 from "../assets/lvl2.png"
@@ -126,7 +127,7 @@ const EventMap = () => {
         {
             name: "Rugby Club",
             num: 1,
-            img: placeholder
+            img: rugby
         },
         {
             name: "ROOT",

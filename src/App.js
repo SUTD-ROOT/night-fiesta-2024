@@ -11,6 +11,7 @@ import Quiz from './pages/Quiz';
 import Leaderboard from './pages/Leaderboard';
 import { useEffect, useState } from 'react';
 import Loader from './components/Loader';
+import Merch from './pages/Merch';
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -47,6 +48,9 @@ function App() {
           <Route
             path="/leaderboard"
             element={<Leaderboard />} />
+            <Route
+            path="/shirt"
+            element={<Merch />} />
         </Routes>
       </Router>
     </div>
