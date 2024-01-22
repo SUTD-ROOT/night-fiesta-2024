@@ -3,6 +3,8 @@ import placeholder from "../assets/photos/booths.jpg"
 import { Link } from "react-router-dom";
 import layoutThumbnail from "../assets/event-layout-thumbnail.png"
 import quizThumbnail from "../assets/quiz-thumbnail.jpg"
+import stageThumbnail from "../assets/stage-thumbnail.jpg"
+
 const Portal = () => {
     return (
         <div className={styles.component}>
@@ -15,10 +17,12 @@ const Portal = () => {
                         </div>
                     </Link>
                 </div>
-                {/*<div className={styles.card}>
-                    <img alt="" src={placeholder} />
+                <Link to="/schedule" className={styles.link}>
+                <div className={styles.card}>
+                    <img alt="" src={stageThumbnail} />
                     <h2>STAGE SCHEDULE</h2>
-                </div>*/}
+                </div>
+                </Link>
                 {/*<div className={styles.card}>
                     <img alt="" src={placeholder} />
                     <h2>LEADERBOARD</h2>
