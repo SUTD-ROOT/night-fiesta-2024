@@ -201,13 +201,13 @@ const EventMap = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Event Map</h1>
                 <p className={styles.tag} >Come visit the booths of Night Fiesta 2024!</p>
-                {/*<div className={styles.wrapper}>
+                <div className={styles.wrapper}>
                     <h2>Level 1</h2>
                     <img src={lvl1} alt=""/>
                     <h2>Level 2</h2>
                     <img src={lvl2} alt=""/>
 
-    </div>*/}
+    </div>
                 <h3 className={styles.subtitle}>Participating Booths:</h3>
                 <div className={styles.container}>
                     {
