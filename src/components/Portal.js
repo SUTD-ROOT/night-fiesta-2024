@@ -1,7 +1,7 @@
 import styles from "../styles/Portal.module.css"
 import placeholder from "../assets/photos/booths.jpg"
 import { Link } from "react-router-dom";
-import layoutThumbnail from "../assets/event-layout-thumbnail.png"
+import layoutThumbnail from "../assets/lvl1.png"
 import quizThumbnail from "../assets/quiz-thumbnail.jpg"
 import stageThumbnail from "../assets/stage-thumbnail.jpg"
 import merchThumbnail from "../assets/shirt-banner.png"
