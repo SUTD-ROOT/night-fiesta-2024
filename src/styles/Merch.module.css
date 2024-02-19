@@ -14,7 +14,7 @@
     width: 100%;
     background: rgba(246, 221, 255, 0.318);
     box-sizing: border-box;
-    padding: 24px;
+    padding: 12px;
 }
 
 .banner {
@@ -44,6 +44,8 @@
 }
 .carouselMain img {
     width: 100%;
+    height: 90%;
+    object-fit: cover;
 }
 
 .content {

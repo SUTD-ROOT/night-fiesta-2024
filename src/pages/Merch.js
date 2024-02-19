@@ -21,7 +21,6 @@ const Merch = () => {
         <div className={styles.page}>
             <div className={styles.wrapper}>
             <h1 className={styles.pageTitle}>Night Fiesta Merchandise</h1>
-            <img src={banner} alt="" className={styles.banner} />
 
             <div className={styles.container}>
                 <Carousel className={styles.carouselMain} showThumbs={false} showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} interval={10000}
@@ -45,9 +44,7 @@ const Merch = () => {
                 </Carousel>
                 <div className={styles.content}>
                     <h1 className={styles.title}>NF Exclusive Shirt</h1>
-                    <h1 className={styles.subtitle}>Early Bird Sale</h1>
-                    <h3 className={styles.price}>1 for $10 | 3 for $24</h3>
-                    <button><a href="https://forms.office.com/r/KPWqrSzyr4" target="_blank" rel="noopener">Order Now!</a></button>
+                    <h2 className={styles.price}>1 for $10 | 3 for $24</h2>
                 </div>
 
             </div>

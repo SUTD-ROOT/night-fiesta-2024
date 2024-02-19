@@ -16,7 +16,7 @@ import Merch from './pages/Merch';
 function App() {
   const [loading, setLoading] = useState(true)
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3200)
+    setTimeout(() => setLoading(false), 2000)
   }, [])
   if (loading) {
     return <Loader />

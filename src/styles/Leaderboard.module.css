@@ -1,0 +1,160 @@
+.page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin-top: 84px;
+}
+
+.banner {
+    background: #3c096c;
+    width: 100%;
+    margin: 24px 0;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    font-size: 20px;
+}
+
+.banner input {
+    padding: 8px 4px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.banner button {
+    background: #EA698B;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    width: 80%;
+    margin: 24px 0;
+    cursor: pointer;
+}
+
+.banner a {
+    color: #EA698B;
+    text-decoration: underline;
+    margin: 8px 0;
+    font-style: italic;
+}
+
+.rankBoard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.rankCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rankCardLeft {
+    color: #EA698B;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 80%;
+}
+
+.rankPerson {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+
+}
+.rankPerson h4 {
+    max-width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 2px 0;
+}
+
+.rankNum {
+    height: 30px;
+    width: 30px;
+    background: #EA698B;
+    color: #fff;
+    flex-shrink: 0
+}
+
+.rankNum1 {
+    height: 30px;
+    width: 30px;
+    background: #eaaa14;
+    color: #fff;
+    flex-shrink: 0
+}
+
+.rankNum2 {
+    height: 30px;
+    width: 30px;
+    background: #687d90;
+    color: #fff;
+    flex-shrink: 0
+}
+
+.rankNum3 {
+    height: 30px;
+    width: 30px;
+    background: #c45e33;
+    color: #fff;
+    flex-shrink: 0
+}
+
+
+
+
+.rankCardRight {
+    color: #3c096c;
+    margin: 0;
+}
+
+.checkResultCard {
+    background: #3c096c;
+    color: #fff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        margin-top: 24px;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+
+}
