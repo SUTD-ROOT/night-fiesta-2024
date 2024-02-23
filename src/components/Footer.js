@@ -13,6 +13,7 @@ const Footer = () => {
             <div className={styles.section2}>
                 <h3>In collaboration with:</h3>
                 <p>SUTD Fifth Rows</p>
+                <p>SUTD Productions</p>
                 <p>Office of Student Life</p>
                 <p>Admission Office</p>
                 <p>Office of Marketing and Communications</p>
