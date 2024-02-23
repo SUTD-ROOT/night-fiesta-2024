@@ -38,8 +38,8 @@ const Teasers = () => {
                     }
                 >
                     <div className={styles.card}>
-                        <h3>Early Bird Shirt Sales Are Out!</h3>
-                        <p>Get your exclusive NF 2024 shirt <a href="/merch">here!</a> Buy 1 shirt for $10 get the 3 shirts bundle for $24! 👕</p>
+                        <h3>NIGHT FIESTA STARTS TONIGHT</h3>
+                        <p>Get ready for an electrifying night! Come down to SUTD in the evening from 6pm to have a blast!</p>
                     </div>
                     <div className={styles.card}>
                         <h3>About</h3>
