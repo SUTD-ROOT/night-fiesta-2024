@@ -8,7 +8,7 @@ const Countdown = () => {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
 
-    const eventDate = "February, 24, 2024";
+    const eventDate = "February, 24, 2024 18:00:00";
 
     const getTime = () => {
         const timeLeft = Date.parse(eventDate) - Date.now();
