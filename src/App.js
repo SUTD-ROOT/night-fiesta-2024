@@ -12,6 +12,7 @@ import Leaderboard from './pages/Leaderboard';
 import { useEffect, useState } from 'react';
 import Loader from './components/Loader';
 import Merch from './pages/Merch';
+import Guide from './pages/Guide';
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -51,6 +52,9 @@ function App() {
             <Route
             path="/merch"
             element={<Merch />} />
+            <Route
+            path="/guide"
+            element={<Guide />} />
         </Routes>
       </Router>
     </div>

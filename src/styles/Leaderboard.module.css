@@ -147,10 +147,21 @@
     margin-bottom: 24px;
 }
 
+.note {
+    font-size: 0.8rem;
+    margin: 12px 8px;
+    color: #EA698B;
+}
+
 @media only screen and (min-width: 768px) {
     .content {
         margin-top: 24px;
         width: 80vw;
+    }
+
+    .note {
+        font-size: 1rem;
+        margin: 12px 0;
     }
 }
 

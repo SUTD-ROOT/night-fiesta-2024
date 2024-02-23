@@ -64,7 +64,7 @@ const Leaderboard = () => {
                     <h4>Please Enter your 6-digit ID:</h4>
                     <input value={checkingID} onChange={(e) => (setCheckingID(e.target.value))} type="number" placeholder="6-digit ID"></input>
                     <button onClick={(e) => check(e)}>Check</button>
-                    <a>How does this work?</a>
+                    <a href="/guide">How does this work?</a>
                 </div>
                 {(isCheck) ?
                     <div className={styles.checkResultCard}>
@@ -73,6 +73,7 @@ const Leaderboard = () => {
                     </div>
                     : <></>}
                 <h3>Top 30 Rankings</h3>
+                <p className={styles.note}>Only those in the Top 30 are eligible to participate in the lucky draw!<br/>The more points you get, the greater are your chances of winning!</p>
                 <p>(Please refresh the page to see the latest update)</p>
                 <div className={styles.rankBoard}>
                     {(rankBoard) ? rankBoard.map((item, i) => (
