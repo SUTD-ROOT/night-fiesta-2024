@@ -75,7 +75,7 @@ const Leaderboard = () => {
                 <h3>Top 30 Rankings</h3>
                 <p>(Please refresh the page to see the latest update)</p>
                 <div className={styles.rankBoard}>
-                    {rankBoard.map((item, i) => (
+                    {(rankBoard) ? rankBoard.map((item, i) => (
                         <div className={styles.rankCard} key={i}>
                             <div className={styles.rankCardLeft}>
                                 <div className={(i + 1 === 1) ? styles.rankNum1 : (i + 1 === 2) ? styles.rankNum2 : (i + 1 === 3) ? styles.rankNum3 : styles.rankNum}>
@@ -90,7 +90,9 @@ const Leaderboard = () => {
                             </div>
                             <h4 className={styles.rankCardRight}>{item.score}</h4>
                         </div>
-                    ))}
+                    )) :
+                    <h2>Leaderboard is closed</h2>
+                    }
 
 
                 </div>

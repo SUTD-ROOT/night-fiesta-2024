@@ -11,10 +11,12 @@
 
 }
 .wrapper {
+    margin: 84px 0;
+    width: 90vw;
+}
+
+.wrapper img {
     width: 100%;
-    background: rgba(246, 221, 255, 0.318);
-    box-sizing: border-box;
-    padding: 12px;
 }
 
 .banner {
@@ -105,5 +107,10 @@
         margin: 42px;
     }
 
+    
+    .wrapper {
+        margin: 84px 0;
+        width: 60vw;
+    }
     
 }

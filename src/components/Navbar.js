@@ -8,7 +8,10 @@ const Navbar = () => {
         <div className={styles.component}>
 
             <div className={styles.right}>
-                {/*<h3 className={styles.leaderboard}><MdLeaderboard /></h3>*/}
+                <a href="/leaderboard">
+                    <h3 className={styles.leaderboard}><MdLeaderboard /></h3>
+                </a>
+                
                 <a href="https://www.instagram.com/sutdlife/" target="_blank" rel="noreferrer">
                     <h3 className={styles.instagram}><FaInstagram /></h3>
                 </a>

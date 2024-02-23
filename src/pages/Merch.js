@@ -4,7 +4,7 @@ import front from "../assets/shirt_front.png"
 import back from "../assets/shirt_back.png"
 import { Carousel } from "react-responsive-carousel"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-
+import merch from "../assets/merch_poster.png"
 const Merch = () => {
     const arrowStyles = {
         position: 'absolute',
@@ -20,9 +20,11 @@ const Merch = () => {
     return (
         <div className={styles.page}>
             <div className={styles.wrapper}>
-            <h1 className={styles.pageTitle}>Night Fiesta Merchandise</h1>
+                <img alt="Merchandise for Night Fiesta" src={merch}/>
+            {/*<h1 className={styles.pageTitle}>Night Fiesta Merchandise</h1>
 
             <div className={styles.container}>
+
                 <Carousel className={styles.carouselMain} showThumbs={false} showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} interval={10000}
                     renderArrowPrev={(onClickHandler, hasPrev, label) =>
                         hasPrev && (
@@ -47,7 +49,7 @@ const Merch = () => {
                     <h2 className={styles.price}>1 for $10 | 3 for $24</h2>
                 </div>
 
-            </div>
+            </div>*/}
             </div>
         </div>
     );
