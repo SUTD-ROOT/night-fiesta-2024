@@ -18,7 +18,7 @@ const Leaderboard = () => {
         })
             .then(function (response) {
                 console.log(response.data);
-                setRankBoard(response.data.results)
+                setRankBoard(response.data)
             })
             .catch(function (error) {
                 console.error(error.message)
