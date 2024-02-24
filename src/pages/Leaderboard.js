@@ -13,17 +13,29 @@ const Leaderboard = () => {
     const [rankBoard, setRankBoard] = useState([])
 
     useEffect(() => {
-        axios.get("https://nf-admin.sutdroot.com/booths/leaderboard/", {
-            responseType: "json",
-        })
-            .then(function (response) {
-                console.log(response.data);
-                setRankBoard(response.data)
+        // Function to fetch leaderboard data
+        const fetchLeaderboardData = () => {
+            axios.get("https://nf-admin.sutdroot.com/booths/leaderboard/", {
+                responseType: "json",
             })
-            .catch(function (error) {
-                console.error(error.message)
-            });
-    }, [])
+                .then(function (response) {
+                    console.log(response.data);
+                    setRankBoard(response.data);
+                })
+                .catch(function (error) {
+                    console.error(error.message);
+                });
+        };
+
+        // Fetch leaderboard data initially
+        fetchLeaderboardData();
+
+        // Fetch leaderboard data every 1 minute
+        const interval = setInterval(fetchLeaderboardData, 20000);
+
+        // Cleanup function to clear interval on component unmount
+        return () => clearInterval(interval);
+    }, []);
 
     const check = (e) => {
         e.preventDefault();
