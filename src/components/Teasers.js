@@ -37,6 +37,10 @@ const Teasers = () => {
                         )
                     }
                 >
+                     <div className={styles.card}>
+                        <h3>THANK YOU</h3>
+                        <p>Thank you for attending Night Fiesta! We hope you had a wonderful and memorable time! 🌌</p>
+                    </div>
                     <div className={styles.card}>
                         <h3>NIGHT FIESTA STARTS TONIGHT</h3>
                         <p>Get ready for an electrifying night! Come down to SUTD in the evening from 6pm to have a blast!</p>
