@@ -25,9 +25,9 @@ const Countdown = () => {
 
     return (
         <div className={styles.main}>
-            <h2 className={styles.note}>NIGHT FIESTA STARTS IN</h2>
+            <h2 className={styles.note}>NIGHT FIESTA HAS ENDED</h2>
             <div className={styles.container}>
-                <div className={styles.section}>
+                {/*<div className={styles.section}>
                     <h1 className={styles.h1}>{(days < 10) ? 0 : ""}{days}</h1>
                     <p className={styles.p}>Days</p>
                 </div>
@@ -42,7 +42,7 @@ const Countdown = () => {
                 <div className={styles.section}>
                     <h1 className={styles.h1}>{(seconds < 10) ? 0 : ""}{seconds}</h1>
                     <p className={styles.p}>Seconds</p>
-                </div>
+    </div>*/}
             </div>
 
         </div>
